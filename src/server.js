@@ -1,5 +1,7 @@
 const express = require('express');
 
+require('./database');
+
 const router = require('./routes');
 
 const app = express();
